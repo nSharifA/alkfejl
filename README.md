@@ -1,13 +1,13 @@
 # alkfejl
 
-A cél létrehozni egy oldalt, ahol egy mozi vetítéseire lehet foglalni jegyeket.
+A cél létrehozni egy oldalt, ahol egy mozi vetítéseire lehet foglalni jegyeket. \n
 Funkciónális elvárások felhasználó számára:
 1. Nyíilt regisztráció
 2. Bejelentkezés
 3. Vetítések megtekintése
 4. Vetítések szűrése filmek és időpontok alapján
 5. Ülőhelyek foglalása
-6. Foglalás lemondása
+6. Foglalás lemondása  \n
 Funkciónális követelmények Admin száméra:
 1. Felhasználók listázása
 2. Felhasználók adatainak módosítása/törlése
