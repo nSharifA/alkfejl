@@ -8,6 +8,7 @@ Funkciónális elvárások felhasználó számára:
 4. Vetítések szűrése filmek és időpontok alapján
 5. Ülőhelyek foglalása
 6. Foglalás lemondása   
+  
 Funkciónális követelmények Admin száméra:
 1. Felhasználók listázása
 2. Felhasználók adatainak módosítása/törlése
