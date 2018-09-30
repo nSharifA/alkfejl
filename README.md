@@ -14,6 +14,7 @@ Funkciónális követelmények Admin száméra:
 2. Felhasználók adatainak módosítása/törlése
 3. Termek létrehozás/szerkesztése/törlése
 4. Vetítések felvétele/törlése/szerkesztése
+5. Filmek létrehozása/módosítása/törlése
 
 Az oldallal szembeni nem funkciónális elvárások:
 1. felhasználóbarát, reszponzív felület.
