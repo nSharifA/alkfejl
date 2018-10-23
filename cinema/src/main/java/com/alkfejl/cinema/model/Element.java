@@ -1,6 +1,7 @@
 package com.alkfejl.cinema.model;
 
 import javax.persistence.Entity;
+import javax.persistence.FetchType;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
@@ -13,18 +14,20 @@ import lombok.Data;
 
 @Data
 @Entity
-public class User {
+public class Element {
 
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	private Long id;
 
-	private String name;
-
-	private String login;
-
 	@JsonBackReference
-	@ManyToOne
-	@JoinColumn(name = "projection_id", nullable = true)
-	private Projection projection;
+	@ManyToOne(targetEntity=Matrix.class, fetch = FetchType.LAZY)
+	@JoinColumn(name = "matrix_id")
+	private Matrix matrix;
+
+	private Integer row;
+
+	private Integer columns;
+
+	private String state;
 }
