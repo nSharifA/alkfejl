@@ -40,8 +40,8 @@ public class MovieService {
 			updatingMovie.get().setName(movie.getName());
 			 movieRepository.save(updatingMovie.get());
 		}else {
-			Movie movi = new Movie();
-			return movi;
+			
+			return null;
 		}
 		return updatingMovie.get();
 	}
